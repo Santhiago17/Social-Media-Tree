@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body, html{
+    font-size: 'poppins' sans-serif;
+    background-color: var(--body-bg-color);
+  }
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .tree-container .avatar {
+    width: 213px;
+    height: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--purple);
+    border-radius: 50%;
+
+   
+  }
+
+  .tree-container .avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .tree-container .insta-user{
+    margin-top: 15px;
+    color: var(--purple);
+  }
+
+  .tree-container .links-container{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links-container .link{
+    margin-top: 16px;
+    width: 325px;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding:  8px 0;
+    transition: ease 0.3s;
+  }
+
+  .links-container .link:hover{
+    background: var(--purple);
+    color: var(--body-bg-color);
+  }
+
+  
+
+ 
+  
+
+  
